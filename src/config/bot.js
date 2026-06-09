@@ -25,7 +25,7 @@ export const botConfig = {
     activities: [
       {
         // Text users will see (example: "Playing /help | Titan Bot").
-        name: "Made with ❤️",
+        name: "Playing /help | Noviq",
         // Activity type number (0 = Playing).
         type: 0, 
       },
@@ -88,55 +88,55 @@ export const botConfig = {
   embeds: {
     colors: {
       // Main brand colors.
-      primary: "#336699", 
-      secondary: "#2F3136", 
+      primary: "#6C5CE7", 
+      secondary: "#00D2D3", 
 
       // Standard status colors for success/error/warning/info messages.
-      success: "#57F287", 
-      error: "#ED4245", 
-      warning: "#FEE75C", 
+      success: "#2ECC71", 
+      error: "#E74C3C", 
+      warning: "#F1C40F", 
       info: "#3498DB", 
 
       // Neutral utility colors.
       light: "#FFFFFF",
-      dark: "#202225",
-      gray: "#99AAB5",
+      dark: "#1E1E2F",
+      gray: "#AAB2C0",
 
       // Discord-style palette shortcuts.
       blurple: "#5865F2",
-      green: "#57F287",
-      yellow: "#FEE75C",
-      fuchsia: "#EB459E",
-      red: "#ED4245",
+      green: "#2ECC71",
+      yellow: "#F1C40F",
+      fuchsia: "#B5179E",
+      red: "#E74C3C",
       black: "#000000",
 
       // Feature-specific colors.
       giveaway: {
-        active: "#57F287",
-        ended: "#ED4245",
+        active: "#2ECC71",
+        ended: "#E74C3C",
       },
       ticket: {
-        open: "#57F287",
-        claimed: "#FAA61A",
-        closed: "#ED4245",
-        pending: "#99AAB5",
+        open: "#00D2D3",
+        claimed: "#6C5CE7",
+        closed: "#E74C3C",
+        pending: "#AAB2C0",
       },
-      economy: "#F1C40F",
-      birthday: "#E91E63",
-      moderation: "#9B59B6",
+      economy: "#F39C12",
+      birthday: "#FF4D6D",
+      moderation: "#8E44AD",
 
       // Ticket priority color mapping.
       priority: {
         none: "#95A5A6",
-        low: "#3498db",
-        medium: "#2ecc71",
-        high: "#f1c40f",
-        urgent: "#e74c3c",
+        low: "#3498DB",
+        medium: "#2ECC71",
+        high: "#F39C12",
+        urgent: "#E74C3C",
       },
     },
     footer: {
       // Default footer text used in bot embeds.
-      text: "Titan Bot",
+      text: "Noviq Bot",
       // Footer icon URL (null = no icon).
       icon: null,
     },
