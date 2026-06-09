@@ -46,7 +46,7 @@ class Noviq extends Client {
 
   async start() {
     try {
-      startupLog('Starting TitanBot...');
+      startupLog('Starting NoviqBot...');
       await new Promise(resolve => setTimeout(resolve, 1000));
       
       startupLog('Initializing database...');
@@ -184,7 +184,7 @@ class Noviq extends Client {
 
     app.get('/', (req, res) => {
       res.status(200).json({ 
-        message: 'TitanBot System Online',
+        message: 'NoviqBot System Online',
         version: '2.0.0',
         timestamp: new Date().toISOString()
       });
@@ -356,7 +356,7 @@ class Noviq extends Client {
 }
 
 try {
-  const bot = new TitanBot();
+  const bot = new NoviqBot();
   
   const setupShutdown = () => {
     process.on('SIGTERM', () => bot.shutdown('SIGTERM'));
@@ -380,7 +380,7 @@ try {
   process.exit(1);
 }
 
-export default TitanBot;
+export default NoviqBot;
 
 
 
