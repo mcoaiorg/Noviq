@@ -158,7 +158,7 @@ export async function createInitialHelpMenu(client) {
     );
 
     embed.setFooter({ 
-        text: "Made with ❤️" 
+        text: "Noviq is an all-in-one Discord bot for automation, moderation, and community growth." 
     });
     embed.setTimestamp();
 
